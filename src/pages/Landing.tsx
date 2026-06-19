@@ -5,6 +5,8 @@ import groupL from "../assets/Group_l.png";
 import groupRight from "../assets/Group_right.png";
 import { CtaBanner } from "../components/CtaBanner";
 import FAQ from "../components/FAQ";
+import Pricing from "../components/Pricing";
+import { Footer } from "../components/Footer";
 
 function Landing() {
   return (
@@ -43,6 +45,8 @@ function Landing() {
 
       <CtaBanner />
       <FAQ />
+      <Pricing />
+      <Footer />
     </>
   );
 }
