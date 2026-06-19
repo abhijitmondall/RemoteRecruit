@@ -37,6 +37,7 @@ export function FeatureRow({
             src={image}
             alt={imageAlt}
             loading="lazy"
+            decoding="async"
             className="w-full max-w-[455px] drop-shadow-[0_30px_60px_rgba(38,79,180,0.15)]"
           />
         </div>

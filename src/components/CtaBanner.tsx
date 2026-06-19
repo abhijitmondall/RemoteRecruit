@@ -24,6 +24,7 @@ export function CtaBanner() {
             src={dashboard}
             alt="RemoteRecruit dashboard preview"
             loading="lazy"
+            decoding="async"
             className="w-full max-w-[1000px] drop-shadow-[0_30px_60px_rgba(38,79,180,0.22)]"
           />
         </Reveal>

@@ -24,10 +24,18 @@ export function Footer() {
         src={footerBg}
         alt=""
         aria-hidden="true"
+        loading="lazy"
+        decoding="async"
         className="absolute inset-0 -z-10 h-full w-full object-cover"
       />
       <div className="mx-auto md:min-h-[380px] flex container flex-col items-start gap-8 px-6 pb-16 pt-32 sm:px-10 md:flex-row md:items-end md:justify-between">
-        <img src={logo} alt="RemoteRecruit" className="h-[74px] w-auto" />
+        <img
+          src={logo}
+          alt="RemoteRecruit"
+          loading="lazy"
+          decoding="async"
+          className="h-[74px] w-auto"
+        />
         <div className="flex items-center gap-5 text-white/90">
           {SOCIALS.map(({ Icon, label }) => (
             <a
@@ -42,7 +50,13 @@ export function Footer() {
         </div>
       </div>
       <div className="flex justify-center py-5 border-t border-[#426aaf]">
-        <img src={rrIcon} alt="" className="h-[32px] w-auto opacity-90" />
+        <img
+          src={rrIcon}
+          alt=""
+          loading="lazy"
+          decoding="async"
+          className="h-[32px] w-auto opacity-90"
+        />
       </div>
     </footer>
   );

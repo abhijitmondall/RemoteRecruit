@@ -9,6 +9,8 @@ function Hero() {
         src={bg}
         alt=""
         aria-hidden="true"
+        loading="lazy"
+        decoding="async"
         className="absolute inset-0 -z-10 h-full w-full object-cover object-bottom"
       />
       <Header />

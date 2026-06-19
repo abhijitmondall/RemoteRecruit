@@ -12,6 +12,8 @@ function PremiumBadge({
       <img
         src={icon}
         alt="Premium badge icon"
+        loading="lazy"
+        decoding="async"
         className="w-[36px] h-[36px] ml-[-8px]"
       />
       <span className="text-[16px] font-[600] text-[#11142D]">{children}</span>
