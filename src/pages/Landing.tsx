@@ -4,6 +4,7 @@ import group136 from "../assets/Group136.png";
 import groupL from "../assets/Group_l.png";
 import groupRight from "../assets/Group_right.png";
 import { CtaBanner } from "../components/CtaBanner";
+import FAQ from "../components/FAQ";
 
 function Landing() {
   return (
@@ -41,6 +42,7 @@ function Landing() {
       />
 
       <CtaBanner />
+      <FAQ />
     </>
   );
 }
