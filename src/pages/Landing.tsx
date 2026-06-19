@@ -14,13 +14,7 @@ function Landing() {
       <Hero />
       <FeatureRow
         eyebrow="Global Reach"
-        title={
-          <>
-            The First Fully Global Job
-            <br />
-            Board, Anywhere, Ever
-          </>
-        }
+        title={<>The First Fully Global Job Board, Anywhere, Ever</>}
         description="RemoteRecruit connects candidates with opportunities around the world. With today's remote-first workforce, you need to be able to find the best jobs and the best people for them, wherever they may be."
         image={group136}
         imageAlt="Global job board preview with candidate cards"

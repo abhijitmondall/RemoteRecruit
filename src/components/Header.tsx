@@ -25,13 +25,13 @@ function Header() {
         <nav className="flex items-center gap-3 sm:gap-6">
           <a
             href="#signin"
-            className="text-sm font-medium text-white/90 transition-colors hover:text-white"
+            className="text-[14px] font-medium text-[#F5F7FE] transition-colors hover:text-white"
           >
             Sign in
           </a>
           <a
             href="#signup"
-            className="rounded-[16px] bg-[#4DA8CCE5] px-5 py-2 text-sm font-semibold text-rr-blue shadow-sm transition-all hover:-translate-y-0.5 hover:bg-white hover:shadow-md"
+            className="rounded-[16px] bg-[#4DA8CCE5] px-5 py-2.5 text-[14px] font-semibold text-[#F5F7FE] shadow-sm transition-all hover:-translate-y-0.5 hover:bg-[#05719c] hover:shadow-md"
           >
             Sign up
           </a>

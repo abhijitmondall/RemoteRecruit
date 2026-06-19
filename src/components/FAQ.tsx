@@ -20,7 +20,7 @@ function FAQ() {
     <section className="bg-background py-20 md:py-28">
       <div className="mx-auto container px-6 md:px-[60px]">
         <Reveal>
-          <h2 className="font-display text-[40px] font-[500] text-[#11142D] sm:text-4xl">
+          <h2 className="font-display md:text-[40px] text-[32px] font-[500] text-[#11142D] sm:text-4xl">
             Common Questions
           </h2>
         </Reveal>

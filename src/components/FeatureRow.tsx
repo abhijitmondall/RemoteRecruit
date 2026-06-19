@@ -19,12 +19,12 @@ export function FeatureRow({
   reverse = false,
 }: FeatureRowProps) {
   return (
-    <div className="mx-auto grid container items-center gap-10 px-6 py-12 md:grid-cols-2 md:gap-16 md:py-8">
+    <div className="mx-auto grid container items-center gap-10 px-4 py-12 md:grid-cols-2 md:gap-16 md:py-8">
       <Reveal className={reverse ? "md:order-2" : ""} delay={0.05}>
         <span className="inline-flex items-center rounded-[18px] bg-[#C2EEFF] px-4 py-1.5 text-xs font-semibold text-rr-blue">
           {eyebrow}
         </span>
-        <h2 className="mt-5 font-display text-[40px] font-[500] leading-[52px] text-[#11142D] sm:text-4xl">
+        <h2 className="mt-5 font-display md:text-[40px] text-[32px] font-[500] leading-[52px] text-[#11142D]">
           {title}
         </h2>
         <p className="mt-5 max-w-md font-[400] text-[19px] leading-[35px] text-[#11142DA4]">

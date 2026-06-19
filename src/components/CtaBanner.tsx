@@ -5,7 +5,7 @@ import dashboard from "../assets/Group13.png";
 
 export function CtaBanner() {
   return (
-    <section className="relative isolate overflow-hidden bg-gradient-to-br from-[oklch(0.94_0.04_245)] via-[oklch(0.92_0.06_260)] to-[oklch(0.90_0.07_275)] py-20 md:py-24">
+    <section className="relative isolate overflow-hidden bg-gradient-to-br from-[oklch(0.94_0.04_245)] via-[oklch(0.92_0.06_260)] to-[oklch(0.90_0.07_275)] pt-20 md:pt-24">
       <motion.span
         aria-hidden="true"
         animate={{ y: [0, -10, 0] }}
@@ -27,11 +27,11 @@ export function CtaBanner() {
             className="w-full max-w-[1000px] drop-shadow-[0_30px_60px_rgba(38,79,180,0.22)]"
           />
         </Reveal>
-        <Reveal delay={0.1}>
+        <Reveal delay={0.1} className="md:px-0 px-4">
           <span className="rounded-full bg-rr-sky/20 text-[16px] font-semibold text-[#1E3E85]">
             Are you ready?
           </span>
-          <h2 className="mt-5 font-display text-[44px] font-bold leading-[57px] text-[#11142D] sm:text-4xl md:text-[40px]">
+          <h2 className="mt-5 font-display md:text-[44px] text-[32px] font-bold leading-[57px] text-[#11142D] sm:text-4xl md:text-[40px]">
             Help is only a few
             <br />
             clicks away!

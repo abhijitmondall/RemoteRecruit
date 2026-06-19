@@ -21,7 +21,7 @@ function Pricing() {
     <section className="relative bg-background pb-40 pt-8 md:-mb-[300px] z-50">
       <div className="mx-auto max-w-6xl px-6">
         <Reveal>
-          <h2 className="text-center font-display text-3xl font-bold text-rr-ink sm:text-4xl">
+          <h2 className="text-center font-display md:text-[40px] text-[32px] font-[600] text-[#11142D]">
             Help Is One Click Away
           </h2>
         </Reveal>

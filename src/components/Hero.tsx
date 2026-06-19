@@ -17,7 +17,7 @@ function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
-          className="font-display text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl md:text-[53px]"
+          className="font-display font-bold leading-tight tracking-tight text-white md:text-[53px] text-[36px]"
         >
           RemoteRecruit's Difference
         </motion.h1>
