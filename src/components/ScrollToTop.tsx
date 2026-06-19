@@ -24,7 +24,7 @@ export function ScrollToTop() {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 16 }}
           transition={{ duration: 0.25 }}
-          className="fixed bottom-6 cursor-pointer right-6 z-40 inline-flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-r from-[#52B4DA] to-[#2495c2c2] text-white transition-transform hover:-translate-y-0.5"
+          className="fixed bottom-6 cursor-pointer right-6 z-40 inline-flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-r from-[#52B4DA] to-[#2495c2c2] text-white transition-transform hover:-translate-y-0.5 z-[999]"
         >
           <ArrowUp className="h-5 w-5" />
         </motion.button>
